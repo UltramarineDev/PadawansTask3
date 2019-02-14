@@ -9,6 +9,10 @@ namespace PadawansTask3
             // put your code here
             //throw new NotImplementedException();
             // Binary GCD algorithm
+            if (a == 0 && b == 0)
+            {
+                throw new ArgumentException();
+            }
             if (a < 0)
             {
                 a = -a;
